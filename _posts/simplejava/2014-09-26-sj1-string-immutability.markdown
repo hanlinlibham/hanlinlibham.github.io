@@ -1,8 +1,13 @@
 ---
 layout: post
 category: "java"
-title:  "SimpleJava-0-文章索引"
+title:  "SimpleJava-1-String的不可变性"
 tags: [simplejava]
 ---
->最近发现了一个不错的java技术网站[programcreek.com](http://www.programcreek.com)，作者貌似是个美籍华人，文章都很精辟，e文的看着也不累。这个系列笔记就从作者的第一本书Simple Java开始吧。
->因为每个topic都有一系列文章，这篇先做个index。
+none
+1. 声明一个String
+{% highlight java %}
+String s = "abcd";
+{% endhighlight %}
+s存储了一个字符串对象的引用
+![pic1](http://www.programcreek.com/wp-content/uploads/2009/02/String-Immutability-1.jpeg)
