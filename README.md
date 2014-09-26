@@ -1,4 +1,4 @@
 malphi.github.com
-=================
+================
 
-test
+Personal Blog powered by Jekyll&amp;Gitpage! http://www.malphi.net
