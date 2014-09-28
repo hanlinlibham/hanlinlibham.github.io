@@ -9,7 +9,7 @@ tags: [simplejava]
 #### 字符串 && 数组
 * [字符串的不可变性](sj1-string-immutability.html)
 * [string的2种创建方法](sj1-string-create.html)
-
+* [检查数组中存在某个值的几种方法](sj1-checkarray.html)
 #### 通用方法
 * [Comparator vs Comparable](sj2-)
 * [HashCode() & equals()](sj2-)
