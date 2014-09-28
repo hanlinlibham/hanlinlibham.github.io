@@ -21,7 +21,7 @@ for(String s: arr){
 		return true;
 }
 {% endhighlight %}
-3. 二分查找（必须是排序过的数组）
+4. 二分查找（必须是排序过的数组）
 {% highlight java %}
 return Arrays.binarySearch(arr, targetValue)>=0;
 {% endhighlight %}
