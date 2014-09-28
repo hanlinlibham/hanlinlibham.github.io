@@ -4,24 +4,25 @@ category: "java"
 title:  "[SimpleJava]-检查数组中存在某个值的几种方法"
 tags: [simplejava]
 ---
-这是stackoverflow上常见的一个问题，下面看看在java中有几种方法。
-1. 使用List
+>这是stackoverflow上常见的一个问题，下面看看在java中有几种方法。
+
+####使用List
 {% highlight java %}
 Arrays.asList(arr).contains(targetValue);
 {% endhighlight %}
-2. 使用Set
+####使用Set
 {% highlight java %}
 Set<String> set = new HashSet<String>(Arrays.asList(arr));
 return set.contains(targetValue);
 {% endhighlight %}
-3. 循环遍历
+####循环遍历
 {% highlight java %}
 for(String s: arr){
 	if(s.equals(targetValue))
 		return true;
 }
 {% endhighlight %}
-4. 二分查找（必须是排序过的数组）
+####二分查找（必须是排序过的数组）
 {% highlight java %}
 return Arrays.binarySearch(arr, targetValue)>=0;
 {% endhighlight %}
