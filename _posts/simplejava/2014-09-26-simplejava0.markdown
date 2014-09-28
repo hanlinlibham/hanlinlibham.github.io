@@ -8,13 +8,8 @@ tags: [simplejava]
 >因为每个topic都有一系列文章，这篇先做个index。不
 #### 字符串 && 数组
 * [字符串的不可变性](sj1-string-immutability.html)
-* [substring如何工作](sj1-)
-* [string使用""还是构造函数(sj1-)
-* [string引用](sj1-)
-* [length vs length()](sj1-)
-* [如何检查数组存在有效值](sj1-)
-* [什么是args](sj1-)
-* [What exactly is null](sj1-)
+* [string的2种创建方法](sj1-string-create.html)
+
 #### 通用方法
 * [Comparator vs Comparable](sj2-)
 * [HashCode() & equals()](sj2-)
