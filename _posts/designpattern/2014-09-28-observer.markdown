@@ -1,0 +1,79 @@
+---
+layout: post
+category: "design"
+title:  "观察者模式-Observer"
+tags: [design|observer]
+---
+>定义了对象之间的1 v N依赖，对象（主题）改变状态时，依赖者都会收到通知并自动更新；
+
+>角色：
+1.abstract subject（observable）：持有一个观察者list，添加和撤销观察者的方法，通知方法调用观察者的update；
+2.具体主题：具体数据；
+3.abstract observer：接口定义update抽象方法；
+4.具体观察者：持有一个主题的引用，实现update更新自身的显示；
+>主题、观察者都使用了组合（即持有对方引用）；
+>可以使用JDK内置api：Observable ，Observer；
+![pic1](/images/pic/observer.png)
+
+>看看[programcreek](http://www.programcreek.com/2011/01/an-java-example-of-observer-pattern/)的例子。
+求职者订阅猎头的信息，有工作机会时，猎头通知求职者。
+![pic2](http://www.programcreek.com/wp-content/uploads/2011/01/observer-pattern.gif)
+{% highlight java %}
+public interface Subject {
+	public void registerObserver(Observer o);
+	public void removeObserver(Observer o);
+	public void notifyAllObservers();
+}
+public interface Observer {
+	public void update(Subject s);
+}
+//hunter is subject
+public class HeadHunter implements Subject{
+ 
+	//define a list of users, such as Mike, Bill, etc.
+	private ArrayList<Observer> userList;
+	private ArrayList<String> jobs;
+	public HeadHunter(){
+		userList = new ArrayList<Observer>();
+		jobs = new ArrayList<String>();
+	}
+	@Override
+	public void registerObserver(Observer o) {
+		userList.add(o);
+	}
+	@Override
+	public void removeObserver(Observer o) {}
+	@Override
+	public void notifyAllObservers() {
+		for(Observer o: userList){
+			o.update(this);
+		}
+	}
+	public void addJob(String job) {
+		this.jobs.add(job);
+		notifyAllObservers();
+	}
+	public ArrayList<String> getJobs() {
+		return jobs;
+	}
+	public String toString(){
+		return jobs.toString();
+	}
+}
+//job seeker is observer
+public class JobSeeker implements Observer {
+ 
+	private String name;
+ 
+	public JobSeeker(String name){
+		this.name = name;
+	}
+	@Override
+	public void update(Subject s) {
+		System.out.println(this.name + " got notified!");
+		//print job list
+		System.out.println(s);
+	}
+}
+{% endhighlight %}
+>JDK中最常见的就是GUI Listener
