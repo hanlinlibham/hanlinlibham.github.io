@@ -1,0 +1,9 @@
+---
+layout: post
+category: "essay"
+title:  "GoodLuck Bianchi"
+tags: [essay]
+---
+>看了10多年F1，很有可能今天发生的事故车手是最严重的一次（[detail](http://www.formula1.com/news/headlines/2014/10/16448.html)）。今天日本站的操作很让人质疑，通常吊车都是在护栏外面进行操作的，而这一次居然开到了赛道内，bianchi就是在这样的情况下撞了上去。。。现场导播也一直没有给出任何的镜头和画面，是在有意回避自己的失职？FIA应该严肃对铃鹿方面进行调查和问责。
+>不管怎样，祝这个帅气的小伙子好运，加油，Bianchi！
+<p>{{ page.date | date_to_string }}</p>
