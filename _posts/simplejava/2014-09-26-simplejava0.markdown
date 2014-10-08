@@ -12,7 +12,7 @@ tags: [simplejava]
 * [检查数组中存在某个值的几种方法](sj1-checkarray.html)
 #### 通用方法
 * [Comparator vs Comparable](sj2-)
-* [HashCode() & equals()](sj2-)
+* [HashCode() & equals()](sj2-equals.html)
 * [对象的引用和值传参](sj2-)
 * [迭代和递归](sj2-)
 #### 类和接口
