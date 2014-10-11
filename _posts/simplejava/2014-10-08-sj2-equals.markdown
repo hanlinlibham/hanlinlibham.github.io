@@ -1,0 +1,55 @@
+---
+layout: post
+category: "java"
+title:  "[SimpleJava]-equals()和hashCode() "
+tags: [simplejava]
+---
+####1.常见错误
+
+{% highlight java %}
+public class Apple {
+	private String color;
+ 
+	public Apple(String color) {
+		this.color = color;
+	}
+ 
+	public boolean equals(Object obj) {
+		if (!(obj instanceof Apple))
+			return false;	
+		if (obj == this)
+			return true;
+		return this.color.equals(((Apple) obj).color);
+	}
+ 
+	public static void main(String[] args) {
+		Apple a1 = new Apple("green");
+		Apple a2 = new Apple("red");
+ 
+		//hashMap stores apple type and its quantity
+		HashMap<Apple, Integer> m = new HashMap<Apple, Integer>();
+		m.put(a1, 10);
+		m.put(a2, 20);
+		System.out.println(m.get(new Apple("green")));
+	}
+}
+{% endhighlight %}
+2个apple对象可以成功存储在map中，但是get的却是null。
+####2.原因是没有重写hashCode
+两者的关系如下：
+* 2个对象相等，hashcode必须相等；
+* 2个对象有相同的hashcode，不一定相等；
+
+map使用hashcode进行检索。内部是一个数组数组的存储结构（数组-链表）第一个数组的index是hashcode，检索时，先通过hashcode找到对应的链表，然后再通过对象的equals方法在链表中查找。
+
+hashcode的默认实现是为不同的对象返回distinct的唯一的整数。在上面的例子中，自定义认为是相同的对象，有不同的hashcode，所以get失败。
+
+hashcode就像一个存储中的车库序列，把不同的对象分散到对应的车库，使得检索变得高效。
+
+上面例子的解决方法如下：
+{% highlight java %}
+public int hashCode(){
+	return this.color.length();	
+}
+{% endhighlight %}
+![pic1](http://www.programcreek.com/wp-content/uploads/2011/07/java-hashcode-650x369.jpeg)
