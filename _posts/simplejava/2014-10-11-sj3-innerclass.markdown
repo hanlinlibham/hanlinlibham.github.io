@@ -25,6 +25,8 @@ public class Test {
 }
 {% endhighlight %}
 
+Inner class reference is: com.test.Outer$Inner@12bb4df8
+
 ####2.成员内部类
 
 可以访问外部类所有的方法和字段。
@@ -54,6 +56,12 @@ public class Outer {
 }
 {% endhighlight %}
 
+Outer x is 100
+
+Inner class reference is Outer$Inner@4dfd9726
+
+Outer class reference is Outer@43ce67ca
+
 ####3.方法内部类
 
 {% highlight java %}
@@ -78,6 +86,8 @@ public class Outer {
 }
 {% endhighlight %}
 
+x is outer
+
 {% highlight java %}
 public class Outer {
 	private static String x = "static outer";
@@ -98,6 +108,8 @@ public class Outer {
 	}
 }
 {% endhighlight %}
+
+x is static outer
 
 ####4.匿名类
 
