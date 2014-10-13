@@ -23,3 +23,8 @@ tags: [simplejava]
 #### 类和接口
 
 * [内部类](sj3-innerclass.html)
+
+#### 集合
+
+* [集合继承图](sj4-collection.html)
+* [Arrays.sort()](sj4-arraysort.html)
