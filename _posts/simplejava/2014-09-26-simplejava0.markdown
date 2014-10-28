@@ -29,3 +29,4 @@ tags: [simplejava]
 * [集合继承图](sj4-collection.html)
 * [Arrays.sort()](sj4-arraysort.html)
 * [类型擦除](sj4-typeerase.html)
+* [数组转list](sj4-convertarraytolist.html)
