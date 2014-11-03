@@ -47,4 +47,6 @@ tags: [simplejava]
 * [逐行读取文件](sj7-readfile.html)
 * [逐行写文件](sj7-writefile.html)
 * [FileOutputStream vs FileWriter](sj7-wstreamwriter.html)
-* [流的close在哪关闭 ](sj7-close.html)
+* [流的close在哪关闭](sj7-close.html)
+* [序列化](sj7-serialization.html)
+* [properties文件](sj7-properties.html)
