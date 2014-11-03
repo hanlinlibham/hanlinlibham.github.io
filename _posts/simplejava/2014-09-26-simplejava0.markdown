@@ -45,3 +45,6 @@ tags: [simplejava]
 #### IO、DB
 
 * [逐行读取文件](sj7-readfile.html)
+* [逐行写文件](sj7-writefile.html)
+* [FileOutputStream vs FileWriter](sj7-wstreamwriter.html)
+* [流的close在哪关闭 ](sj7-close.html)

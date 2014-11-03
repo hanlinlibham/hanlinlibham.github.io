@@ -1,0 +1,49 @@
+---
+layout: post
+category: "java"
+title:  "[SimpleJava]-关闭流的close方法在哪调用"
+tags: [simplejava]
+---
+
+<pre>
+//close() is in try clause
+try {
+	PrintWriter out = new PrintWriter(
+			new BufferedWriter(
+			new FileWriter("out.txt", true)));
+	out.println("the text");
+	out.close();
+} catch (IOException e) {
+	e.printStackTrace();
+}
+</pre>
+
+<pre>
+//close() is in finally clause
+PrintWriter out = null;
+try {
+	out = new PrintWriter(
+		new BufferedWriter(
+		new FileWriter("out.txt", true)));
+	out.println("the text");
+} catch (IOException e) {
+	e.printStackTrace();
+} finally {
+	if (out != null) {
+		out.close();
+	}
+}
+</pre>
+
+<pre>
+//try-with-resource statement
+try (PrintWriter out2 = new PrintWriter(
+			new BufferedWriter(
+			new FileWriter("out.txt", true)))) {
+	out2.println("the text");
+} catch (IOException e) {
+	e.printStackTrace();
+}
+</pre>
+
+在finally中调用是最合适的。在jdk1.7以上可以使用第三种方法。
