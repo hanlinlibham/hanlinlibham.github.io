@@ -42,7 +42,7 @@ tags: [simplejava]
 * [wait() && notify()](sj6-waitnotify.html)
 * [java线程重写](sj6-overriding.html)
 
-#### IO、DB
+#### IO
 
 * [逐行读取文件](sj7-readfile.html)
 * [逐行写文件](sj7-writefile.html)
@@ -50,3 +50,7 @@ tags: [simplejava]
 * [流的close在哪关闭](sj7-close.html)
 * [序列化](sj7-serialization.html)
 * [properties文件](sj7-properties.html)
+
+#### JVM
+
+* [jvm运行时数据区](sj8-dataarea.html)
