@@ -19,9 +19,9 @@ Set<String> set = new HashSet<String>(Arrays.asList(arr));
 return set.contains(targetValue);
 </pre>
 
-这代码可以工作，但不需要花费额外时间转换成set。直接使用工具类：
+这代码可以工作，但不需要花费额外时间转换成set。直接使用工具类：或者自己循环也可以。
 
-<pre>Arrays.asList(arr).contains(targetValue);</pre>，或者自己循环也可以。
+<pre>Arrays.asList(arr).contains(targetValue);</pre>
 
 #### 3. 在循环内部从list重移除元素
 
@@ -30,6 +30,7 @@ for (int i = 0; i < list.size(); i++) {
 	list.remove(i);
 }
 </pre>
+
 当元素被删除时，list的尺寸和index都改变了。当使用index删除多个元素，代码将不能正常工作。
 
 foreach即for的简化写法也是不正确的，会抛出ConcurrentModificationException异常。正确的方法是迭代器：
