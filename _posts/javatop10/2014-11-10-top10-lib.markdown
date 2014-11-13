@@ -1,0 +1,81 @@
+---
+layout: post
+category: "java"
+title:  "java常用库"
+tags: [java]
+---
+#### 1. Core
+
+* Apache Common Lang
+* Guava
+
+#### 2. html xml
+
+* Jsoup
+* STaX
+
+#### 3. web 
+
+* spring
+* struts 2
+* Google web toolkit
+* Strips
+* Tapestry
+
+#### 4. chart report graph
+
+* JFreeChart
+* JFreeReport
+* JGraphT
+
+#### 5. windows lib
+
+* Swing
+* SWT
+
+#### 6. GUI
+
+Eclipse RCP
+
+#### 7. Natural Language
+
+* OpenNLP
+* Stanford Parser
+
+#### 8. Static Analysis
+
+* Eclipse JDT
+* WALA
+
+#### 9. JSON
+
+* jackson
+* XStream
+* Gson
+* JSON-lib
+
+#### 10. Math
+
+apache common math
+
+#### 11. Log
+
+* log4j
+* logback
+
+#### 12. Office-Complicant
+
+* POI
+* Docx4j
+
+#### 13. Date and Time
+
+Joda-Time
+
+#### 14. DB
+
+* Hibernate/eclipseLink/JPA
+* JDO
+* jOOQ
+* springJDBC/spring data
+* apache dbutils
