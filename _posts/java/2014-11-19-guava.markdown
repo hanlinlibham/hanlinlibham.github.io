@@ -1,0 +1,74 @@
+---
+layout: post
+category: "java"
+title:  "Guava Splitter"
+tags: [java]
+---
+
+Guava是google的一个java类库，提供了很多不错的api。本文只是一个splitter的例子。Guava下载：[1](https://code.google.com/p/guava-libraries/)
+
+#### 1. 基本例子
+
+<pre>
+import com.google.common.base.Splitter;
+ 
+public class GuavaSplitterExample {
+ 
+	public static void main(String[] args) {
+ 
+		String str = "a,,b,     c,,,d";
+ 
+		Iterable<String> result = Splitter.on(',')
+			       .split(str);
+ 
+		System.out.println("--start--");
+		for(String s: result){
+			System.out.println(s);
+		}
+		System.out.println("--end--");
+	}
+}
+</pre>
+
+#### 2. 忽略空串
+
+<pre>
+Iterable<String> result = Splitter.on(',')
+       .omitEmptyStrings()
+       .split(str);
+</pre>
+
+#### 2. trim每个字符串
+
+<pre>
+Iterable<String> result = Splitter.on(',')
+	       .trimResults()
+	       .omitEmptyStrings()
+	       .split(str);
+</pre>
+这时输出很规整了。
+
+#### 4. 限制分隔的数量
+
+比如分隔3次就不再分隔了，输出串为a/b/ c,,,d
+
+<pre>
+Iterable<String> result = Splitter.on(',')
+		       .trimResults()
+		       .omitEmptyStrings()
+		       .limit(3)
+		       .split(str);
+</pre>
+
+#### 5. trim更多的字符
+
+不仅仅可以消除空格，还可以消除数字、大小写等。
+
+<pre>
+String str = "a,,b,c1,,,d2";
+ 
+Iterable<String> result = Splitter.on(',')
+	       .trimResults(CharMatcher.DIGIT)
+	       .omitEmptyStrings()
+	       .split(str);
+</pre>

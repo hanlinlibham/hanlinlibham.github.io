@@ -109,7 +109,7 @@ class Foo {
 		System.out.println("abc");
 	}
 }
-
+</pre>
 获取构造器和创建实例
 <pre>
 public class ReflectionHelloWorld {
