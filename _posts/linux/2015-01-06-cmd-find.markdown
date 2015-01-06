@@ -10,35 +10,35 @@ tags: [linux]
 
 * 查找文件
 
-<pre>find <dir> -name <file></pre>
+<pre>find . -name <file></pre>
 
 查找dir及其子目录下有没有file文件，file加不加""都可以执行，但必须是全匹配才能找到(模糊查找用file*就可以)。
 
 * 查找目录
 
-<pre>find <dir> -type d -name <dirName> </pre>
+<pre>find . -type d -name <dirName> </pre>
 
 d可以替换为f、l(link)等，测试不加type也可以显示出目录的查找结果。
 
 * 找后缀文件
 
-<pre>find <dir> -name "*.txt" </pre>
+<pre>find . -name "*.txt" </pre>
 
 加不加""都可以。
 
 * 按用户所属查找
 
-<pre>find <dir> -user <userName> </pre>
+<pre>find . -user <userName> </pre>
 
 -group按组查。
 
 * 按权限查
 
-<pre>find <dir> -perm 755 </pre>
+<pre>find . -perm 755 </pre>
 
 * 按正则查
 
-<pre>find <dir> -regex '.*md'</pre>
+<pre>find . -regex '.*md'</pre>
 
 查找文件名中有md字符的。不加''也可以。因为输出结果有./，所以要加.*
 
