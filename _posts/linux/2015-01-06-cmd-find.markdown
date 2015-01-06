@@ -1,0 +1,15 @@
+---
+layout: post
+category: "essay"
+title:  "[linux命令]find]"
+tags: [linux]
+---
+各种原因吧，好久没写blog了。2015年的第一篇，继续。不做什么无用的新年计划了，这一年主要是精通一下php。
+
+偶然发现了一个ops大神的blog，质量很不错，本文出处如下：[here](http://roclinux.cn/?p=18). find命令用法。
+
+* 查找文件
+
+<pre>find <dir> -name <file></pre>
+
+查找dir及其子目录下有没有file文件，file加不加""都可以执行，但必须是全匹配才能找到(模糊查找用file*就可以)。
