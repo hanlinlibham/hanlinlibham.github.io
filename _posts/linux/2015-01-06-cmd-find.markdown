@@ -1,6 +1,6 @@
 ---
 layout: post
-category: "essay"
+category: "linux"
 title:  "[linux命令]find]"
 tags: [linux]
 ---
