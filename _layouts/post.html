@@ -6,7 +6,8 @@ layout: default
 <h2>
   {{ page.title }}
   <div class="post-date">
-	<span class="glyphicon glyphicon-time"></span>
+    <span class="glyphicon glyphicon-time"></span>
+    {{ post.date | date_to_string }}
   </div>
 </h2>
 <!-- Author -->
