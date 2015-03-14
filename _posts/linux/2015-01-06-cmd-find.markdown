@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "linux"
-title:  "[linux命令]find]"
+title:  "find命令"
 tags: [linux]
 ---
 各种原因吧，好久没写blog了。2015年的第一篇，继续。不做什么无用的新年计划了，这一年主要是精通一下php。
