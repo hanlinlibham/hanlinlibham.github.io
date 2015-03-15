@@ -1,0 +1,25 @@
+---
+layout: post
+category: "codility"
+title:  "[test]FrogJmp"
+tags: [codility]
+---
+今天开始刷codility，本来懒得做，后来发现各方面用户体验做的很不错，比leetcode好。
+
+####题目 FrogJmp
+
+大意是青蛙每次跳跃的距离是D，从X跳到Y，问需要几次。比如从位置10跳到85，跳跃距离为30，则需要3次。
+
+#### 分析
+
+直接除，能整除就返回，有余数就+1次。
+
+<pre>
+public static int solution(int X, int Y, int D) {
+	int count = (Y - X) / D;
+	if ((Y - X) % D > 0)
+		count += 1;
+	return count;
+}
+</pre>
+<p>{{ page.date | date_to_string }}</p>
