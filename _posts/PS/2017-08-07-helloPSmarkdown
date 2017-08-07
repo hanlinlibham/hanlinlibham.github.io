@@ -1,0 +1,8 @@
+---
+layout: post
+category: "PS"
+title:  "Hello PS"
+tags: [PS]
+---
+> PS:)
+<p>{{ page.date | date_to_string }}</p>
