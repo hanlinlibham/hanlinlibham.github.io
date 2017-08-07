@@ -10,9 +10,9 @@ paginate: 8
 paginate_path: "page:num"
 
 # presonal config
-title: Mina's Papa Blog
-description: copyright by malphi, powered by malphi
-feed: http://www.malphi.net/atom.xml
+title: Hanlin_Li Blog
+description: copyright by Hanlin_Li Blog, powered by Hanlin_Li Blog
+feed: Hanlin_Li Blog
 
 author: malphi
 
