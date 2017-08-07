@@ -1,0 +1,8 @@
+---
+layout: post
+category: "QF"
+title:  "Hello QF"
+tags: [QF]
+---
+>Hello QF:)
+<p>{{ page.date | date_to_string }}</p>
