@@ -1,0 +1,8 @@
+---
+layout: post
+category: "C++"
+title:  "Hello  C++"
+tags: [C++
+---
+>As a mark of C++
+<p>{{ page.date | date_to_string }}</p>
