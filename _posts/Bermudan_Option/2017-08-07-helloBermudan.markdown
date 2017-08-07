@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "Bermudan_Option"
-title:  "Hello World"
+title:  "Hello Bermudan_Option"
 tags: [Bermudan_Option]
 ---
 > As a start of new stage of my C++ Project:)
