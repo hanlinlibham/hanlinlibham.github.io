@@ -3,12 +3,12 @@ layout: default
 title: "关于：About"
 ---
 ####Basic Info
-malphi
+Hanlin Li
 
 ####IT skills  
-1.java coder . 
-2.Github：https://github.com/malphi  
+1.c++ coder . 
+2.Github：https://github.com/hanlinlibham  
 
 ####Work Experience  
-2011/11--Present  EA
-Senior Engineer  
+2015/11--Present  
+Analyst 
