@@ -1,6 +1,6 @@
----
+﻿---
 layout: post
-category: "essay"
+category: "informal"
 title:  "Hello World"
 tags: [essay]
 ---
