@@ -1,0 +1,8 @@
+---
+layout: post
+category: "LookupTable"
+title:  "Hello LUT"
+tags: [LookupTable]
+---
+> As a mark of Dissertation
+<p>{{ page.date | date_to_string }}</p>
