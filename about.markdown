@@ -2,9 +2,9 @@
 layout: default
 title: "关于：About"
 ---
-#Basic Info<br>
+Basic Info<br>
 Hanlin Li
-
+======
 > ##IT skills<br>
 1.c++ coder<br>
 2.Github：https://github.com/hanlinlibham
