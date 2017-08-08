@@ -1,10 +1,10 @@
----
+﻿---
 layout: post
 category: "informal"
 title:  "Cmd Markdown"
 tags: [informal]
 ---
-# 欢迎使用 Cmd Markdown 编辑阅读器
+# Welcome to Cmd Markdown
 
 ------
 

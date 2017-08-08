@@ -1,3 +1,10 @@
+---
+layout: post
+category: "informal"
+title:  "StackEdit!
+"
+tags: [informal]
+---
 Welcome to StackEdit!
 ===================
 
