@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 category: "informal"
 title:  "Cmd Markdown"
