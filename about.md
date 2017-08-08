@@ -1,10 +1,11 @@
-Basic Info
-Hanlin Li
-====
 ---
 layout: default
 title: "关于：About"
 ---
+
+Basic Info
+Hanlin Li
+====
 
 ##IT skills\  
 1.c++ coder\ 
