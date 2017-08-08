@@ -5,12 +5,14 @@ title: "关于：About"
 Basic Info<br>
 Hanlin Li
 ======
-#IT skills<br>
+IT skills
+------
 > 
 1.c++ coder<br>
 2.Github：https://github.com/hanlinlibham
 
-##Work Experience<br>
+Work Experience
+------
 > 
 2015/11--Present<br>
 Analyst
