@@ -4,10 +4,10 @@ category: "informal"
 title:  "Dissertation Templete"
 tags: [informal]
 ---
-#UOB-Dissertation Templete 1.0
-A latex version dissertation for University of Birmingham, School of Mathematic.
-This version was a blank templete and also has good construction.
-Everyone were welcome to use.
+# UOB-Dissertation Templete 1.0
+A latex version dissertation for University of Birmingham, School of Mathematic.<br>
+This version was a blank templete and also has good construction.<br>
+Everyone were welcome to use.<br>
 
 >https://github.com/hanlinlibham/UOB-Thesis-Paper-Templete
 
