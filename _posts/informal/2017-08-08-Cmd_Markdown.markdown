@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "informal"
-title:  "Cmd Markdown"
+title:  "Welcome to Cmd Markdown"
 tags: [informal]
 ---
 # Welcome to Cmd Markdown
