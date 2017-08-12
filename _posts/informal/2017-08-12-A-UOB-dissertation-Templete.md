@@ -8,6 +8,6 @@ A latex version dissertation for University of Birmingham, School of Mathematic.
 This version was a blank templete and also has good construction.<br>
 Everyone were welcome to use.<br>
 
->https://github.com/hanlinlibham/UOB-Thesis-Paper-Templete
+>[UOB-Thesis-Paper-Templete]{https://github.com/hanlinlibham/UOB-Thesis-Paper-Templete}
 
 <p>{{ page.date | date_to_string }}</p>
