@@ -25,7 +25,7 @@
 
 ## Work Experience
 ------
-> China Minzu Securities
+> China Minzu Securities<br>
 2015/06--2015/08<br>
 Intern Analyst
 
