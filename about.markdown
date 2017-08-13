@@ -5,7 +5,7 @@
 ## Interest
 ------
 >Travel, Football, Music, Movie<br>
->PDE numerical solution, Latent Semantic Analysis，Option Pricing Problem
+>PDE numerical solution, Latent Semantic Analysis, Option Pricing Problem
 
 ## Education
 ------
