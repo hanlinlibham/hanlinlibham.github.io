@@ -5,6 +5,7 @@
 ## Interest
 ------
 >Travel, Football, Music, Movie<br>
+>PDE numerical solution, Latent Semantic Analysis，Option Pricing Problem
 
 ## Education
 ------
@@ -31,5 +32,6 @@ Intern Analyst
 ## Related Research
 ------
 > Look-up Table used in American Option Value and Sensitive Problem<br>
+Chinese Semantic Analysis of Product Evaluation of Electric Business Platform<br>
 The Prevention and Control of Ebola Virus in Western Aferica<br>
 Research in operation of private spinning enterprise in China’s Southeast coast<br>
