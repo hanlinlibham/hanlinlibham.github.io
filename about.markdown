@@ -5,14 +5,14 @@
 ## Interest
 ------
 >
-Travel,Football,Music,Movie<br>
+Travel, Football, Music, Movie<br>
 
 ## Education
 ------
 >
-University of Birmingham, MSc Financial Engineering<br>
-University of Southampton, Visiting Student<br>
-Nanjing University of Finance and Economics<br>
+University of Birmingham, MSc in Financial Engineering<br>
+University of Southampton, Visiting Student in Economics<br>
+Nanjing University of Finance and Economics, BSc in Applied Mathematics<br>
 
 ## IT skills
 ------
