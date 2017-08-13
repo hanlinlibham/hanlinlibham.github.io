@@ -2,14 +2,38 @@
 # Basic Info<br>
 # Hanlin Li
 
+## Interest
+------
+>
+Travel,Football,Music,Movie<br>
+
+## Education
+------
+>
+University of Birmingham, MSc Financial Engineering<br>
+University of Southampton, Visiting Student<br>
+Nanjing University of Finance and Economics<br>
+
 ## IT skills
 ------
 > 
-1.c++ coder<br>
-2.Github：https://github.com/hanlinlibham
+1. C++ coder<br>
+2. Python Coder
+3. LaTex
+4. Matlab
+5. SAS
+6. CUDA
+7. [My Github](https://github.com/hanlinlibham)
 
 ## Work Experience
 ------
+> China Minzu Securities
+2015/06--2015/08<br>
+Intern Analyst
+
+## Related Research
+------
 > 
-2015/11--Present<br>
-Analyst
+Look-up Table used in American Option Value and Sensitive Problem<br>
+The Prevention and Control of Ebola Virus in Western Aferica<br>
+Research in operation of private spinning enterprise in China’s Southeast coast<br>
